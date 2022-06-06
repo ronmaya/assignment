@@ -1,0 +1,126 @@
+body{
+    background-color: rgb(156, 14, 114);
+}
+.header{
+    background-color: rgba(22, 236, 40, 0.801);
+    height: 170px;
+    display: flex;
+}
+.header img{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    
+}
+.name{
+    padding-left: 20px;
+    color : indigo;
+    padding-top: 40px;
+}
+.header nav a{
+    padding-left: 100px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color :rgb(190, 17, 139);
+    font-size: 40px;  
+}
+.header nav a:hover{
+    color : yellow;
+}
+.header nav {
+    padding-left: 250px;
+    padding-top: 100px;
+}
+
+.img-background{
+    background-image: url("background.PNG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 250px;
+    height: 160px;
+
+}
+.container{
+    display : flex;
+}
+.container img{
+    border-radius : 50%;
+    height : 350px;
+    width : 350px;
+    margin-top: 80px;
+    
+
+
+}
+.c-text{
+    background-color: green;
+}
+.c-text p{
+    color:black;
+    padding-left: 10px;
+}
+.c-text1{
+    background-color: black;
+}
+.c-text1 p{
+    color : white;
+    padding-left: 10px;
+
+}
+.c-text1 h1{
+    color : yellow;
+    margin-top : 80px;
+}
+.c-text h1{
+    color: pink;
+    margin-top : 80px;
+}
+form{
+    font-size : 30px;
+    padding-left: 30px;
+
+}
+.form form input{
+    border:none;
+    border-bottom: 2px solid blue;
+    width: 50vh;
+    height: 60px;
+    background-color: blanchedalmond;
+    color: rgb(219, 104, 10);
+    font-size: 30px;
+}
+table{
+    font-size: 50px;
+    
+}
+.form{
+    display: flex;
+    background-color: rgb(14, 161, 9) ;
+    margin-top: 40px;
+}
+.gender{
+    padding-left: 90px;   
+}
+.gender label{
+    font-size: 40px;
+}
+.certificate{
+    padding-left: 90px;
+}
+.certificate label{
+    font-size: 40px;
+}
+#submit{
+    border-radius: 20px;
+    height :50px;
+    width : 150px;
+    margin-top : 20px;
+    background-color :brown;
+    color : rgb(9, 187, 69);
+    font-size: 20px;
+}
+#submit:hover{
+    background-color: black;
+    color :brown;
+
+}
